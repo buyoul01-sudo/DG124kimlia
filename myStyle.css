@@ -187,6 +187,7 @@ header p { padding-top: 30px; }
     top: 150px;
     left: 40px;
     z-index: 4;
+    background: transparent !important;
 }
 
 #menu ul {
@@ -205,12 +206,13 @@ header p { padding-top: 30px; }
     user-select: none;
     text-align: center;
     width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 #menu ul li a {
     display: block;
     padding: 15px 20px;
-    color: #333;
+    color: white;
     text-decoration: none;
     font-family: 'YesMyungjo', sans-serif;
     transition: all 0.2s ease;
@@ -265,7 +267,7 @@ header p { padding-top: 30px; }
 .col-3 { width: 41.66%; padding: 0px 5px; z-index: 4; }
 .col-4 { width: 66.66%; padding: 0px 5px; }
 .col-5 { width: 83.32%; padding: 0px 5px; }
-.col-6 { width: 100%; padding: 0px 5px; }
+.col-6 { width: 100%; padding: 0px 0px; }
 
 .h-2 { height: 2px; }
 .h-200 { height: 200px; }
