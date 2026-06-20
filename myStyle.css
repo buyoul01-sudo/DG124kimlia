@@ -209,6 +209,10 @@ header p { padding-top: 30px; }
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
+#menu ul li:first-child {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
 #menu ul li a {
     display: block;
     padding: 15px 20px;
@@ -267,7 +271,7 @@ header p { padding-top: 30px; }
 .col-3 { width: 41.66%; padding: 0px 5px; z-index: 4; }
 .col-4 { width: 66.66%; padding: 0px 5px; }
 .col-5 { width: 83.32%; padding: 0px 5px; }
-.col-6 { width: 100%; padding: 0px 0px; }
+.col-6 { width: 100%; padding: 0px 5px; }
 
 .h-2 { height: 2px; }
 .h-200 { height: 200px; }
